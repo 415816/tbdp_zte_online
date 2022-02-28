@@ -1,0 +1,256 @@
+.{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #efefef;
+}
+
+div{
+    margin: 10px;
+}
+
+.bilet{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+h4{
+    margin: 0;
+}
+
+.leftHalf{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.generate, .result, .cheets, .clos, .startButton, .trueAns, .showCalculator, .showMU1, .showMU2{
+    border-radius: 5px;
+    min-height: 25px;
+    min-width: 233px;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 28px;
+    background-color: #5781e1;
+    color: #fff;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+    padding: 10px;
+    font-weight: bold;
+}
+.result, .cheets, .trueAns{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.generate:hover, .result:hover, .cheets:hover, .clos:hover, .startButton:hover, .trueAns:hover, .showCalculator:hover, .showMU1:hover, .showMU2:hover{
+    cursor: pointer;
+    background-color: #1f318e !important;
+    color: #ffffff !important;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+
+INPUT[type="text"] {
+    width: 500px;
+}
+
+div div div {
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 15px;
+}
+
+.FIO, .pas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 18px;
+    background: #efefef;
+}
+
+.FIO label input{
+    margin-top: 15px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.FIO label{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.block{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: -10px;
+    top: -10px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.98);
+    overflow: auto;
+}
+
+.mess{
+    margin: 100px auto;
+    padding: 20px;
+    width: 50%;
+    z-index: 1500;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cler{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+}
+
+.footter{
+    text-align: center;
+}
+
+#r{
+    float: right;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.start{
+    display: block;
+    position: fixed;
+    z-index: 1600;
+    left: -10px;
+    top: -10px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.98);
+    overflow: auto;
+}
+
+.chooseTest{
+    margin: 100px auto;
+    padding: 20px;
+    width: 30%;
+    z-index: 1700;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 30px;
+}
+
+.chooseTest h3{
+    margin: 0;
+}
+
+.chooseTest select{
+    font-size: 18px;
+    margin-top: 20px;
+    width: 308px;
+}
+
+.trueAnswer{
+    border: 6px solid rgb(100, 160, 255);
+}
+
+.trueAns{
+    width: 750px;
+    margin-bottom: 5px;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 0;
+    background: none;
+    
+}
+.btn{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    background: none;
+    height: 120px;
+}
+
+.calcDiv, .calcSumm, .calcSubtraction, .calcMultipl, .calcDevide{
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.calculator-container{
+    align-items: center;
+    display: none;
+    width: 560px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.showCalculator, .showMU1, .showMU2, .result{
+    margin: 10px 0;
+    width: 350px;
+    height: 88px;
+}
+
+.calcInp{
+    max-width: 90px;
+    margin: 4px;
+    font-size: 14px;
+}
+
+.non{
+    display: flex !important;
+}
+
+
+textarea{
+    float: right;
+    position: fixed;
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnCalcContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 0;
+    background: none;
+}
+
+.MU1 img, .MU2 img {
+    width: 750px;
+    padding: 0;
+    margin: 0;
+}
+.MU1-container,.MU2-container{
+    align-items: center;
+    display: none;
+    width: 560px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.MU1, .MU2{
+    padding: 0;
+    margin: 0;
+    width: 25px;
+}
